@@ -4,7 +4,7 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/MyTest">MyTest</router-link> |
-    <router-link to="/databindinglist2">databindinglist2qqqqq</router-link>
+    <router-link to="/databindinglist2">databindinglist2</router-link>
   </nav>
   <router-view/>
 </template>
