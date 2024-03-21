@@ -4,6 +4,7 @@ import DataBinding from '../views/DataBinding.vue'
 import MyTest from '../views/MyTest.vue'
 import DataBindingList2 from '../views/DataBindingList2.vue'
 import Nested from '../views/NestedComponent.vue'
+import Parent from '../views/ParentComponent.vue'
 const routes = [
   {
     path: '/',
@@ -37,6 +38,11 @@ const routes = [
     path: '/nested',
     name: 'NestedComponent',
     component: Nested
+  },
+  {
+    path: '/Parent',
+    namne: 'ParentComponent',
+    component: Parent
   }
 ]
 

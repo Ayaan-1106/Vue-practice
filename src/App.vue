@@ -4,7 +4,11 @@
     <router-link to="/about">About</router-link> |
     <router-link to="/databinding">Data Binding</router-link> |
     <router-link to="/MyTest">MyTest</router-link> |
-    <router-link to="/databindinglist2">databindinglist2</router-link>
+    <router-link to="/databindinglist2">databindinglist2</router-link> |
+    <router-link to="/nested">nested</router-link> |
+  </nav>
+  <nav>
+    <router-link to="/Parent">Parent</router-link>
   </nav>
   <router-view/>
 </template>
